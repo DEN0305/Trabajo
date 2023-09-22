@@ -1,0 +1,61 @@
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  margin: -10px -12px;
+  
+
+}
+
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 200px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+.titulo{
+text-align: center;
+margin-top: 40px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+ margin-left: 150px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.principal{
+  background-image: url(viaje.jpg);
+  display: block;
+}
+
+.principal.p{
+  z-index: -1;
+  margin-top: 100px;
+}
